@@ -10,6 +10,8 @@ public class FileLib {
         FileInputStream fis = new FileInputStream("C:\\Inteleje test\\MeeshoSX_Des\\src\\test\\java\\Config\\Config.property");
         Properties p = new Properties();
         p.load(fis);
+         //String s=p.getProperty(Key);
+        //return s;
         return p.getProperty(key);
     }
 
